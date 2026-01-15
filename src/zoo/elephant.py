@@ -5,7 +5,7 @@ from .animal import Animal
 
 
 class Elephant(Animal):
-    def __init__(self, name="Ellie"):
+    def __init__(self, name="bobby"):
         super().__init__(name, species="Elephant")
 
     def sound(self):
